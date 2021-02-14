@@ -15,29 +15,29 @@ import java.net.Socket;
  * 4：可以管理部署多个不同的网络应用。
  */
 public class WebServer {
-    private ServerSocket serverSocket;
-    public WebServer(){
-        try {
-            System.out.println("正在启动服务端...");
-            serverSocket = new ServerSocket(8088);
-            System.out.println("客户端启动完毕！");
-
-        } catch (IOException e) {
-           e.printStackTrace();
-        }
-    }
-    public void start(){
-        try {
-            System.out.println("等待客户端连接...");
-            Socket socket = serverSocket.accept();
-            System.out.println("一个客户端连接了！");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static void main(String[] args) {
-        WebServer server = new WebServer();
-        server.start();
-    }
+//    private ServerSocket serverSocket;
+//    public WebServer(){
+//        try {
+//            System.out.println("正在启动服务端...");
+//            serverSocket = new ServerSocket(8088);
+//            System.out.println("客户端启动完毕！");
+//
+//        } catch (IOException e) {
+//           e.printStackTrace();
+//        }
+//    }
+//    public void start(){
+//        try {
+//            System.out.println("等待客户端连接...");
+//            Socket socket = serverSocket.accept();
+//            System.out.println("一个客户端连接了！");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        WebServer server = new WebServer();
+////        server.start();
+//    }
 }
