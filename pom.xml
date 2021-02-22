@@ -9,6 +9,15 @@
         <module>V2</module>
         <module>V3</module>
         <module>V4</module>
+        <module>V5</module>
+        <module>V6</module>
+        <module>V7</module>
+        <module>V8</module>
+        <module>V9</module>
+        <module>untitled</module>
+        <module>V10</module>
+        <module>V11</module>
+        <module>V12</module>
     </modules>
     <properties>
         <!-- 设置 JDK 版本为 1.8 -->
@@ -23,5 +32,11 @@
     <artifactId>WebServer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+    </dependencies>
 </project>
